@@ -7,11 +7,14 @@ public class NotesModel {
     private String titleText;
     private String descNotes;
     private String noteDates;
+    private String id;
 
-    public NotesModel(String titleText, String descNotes, String noteDates) {
-        this.titleText = titleText;
-        this.descNotes = descNotes;
-        this.noteDates = noteDates;
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     public NotesModel() {
